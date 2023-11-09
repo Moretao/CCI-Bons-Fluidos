@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="auto">
+
+<head>
+  <script src="../assets/js/color-modes.js"></script>
+
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="" />
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors" />
+  <meta name="generator" content="Hugo 0.118.2" />
+  <title>Bons Fluídos - Home</title>
+
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/album/" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3" />
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+
+  <style>
+    strong {
+      margin: 5%;
+    }
+
+    .d-block w-100 {}
+
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+
+    .b-example-divider {
+      width: 100%;
+      height: 3rem;
+      background-color: rgba(0, 0, 0, 0.1);
+      border: solid rgba(0, 0, 0, 0.15);
+      border-width: 1px 0;
+      box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1),
+        inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
+    }
+
+    .b-example-vr {
+      flex-shrink: 0;
+      width: 1.5rem;
+      height: 100vh;
+    }
+
+    .bi {
+      vertical-align: -0.125em;
+      fill: currentColor;
+    }
+
+    .nav-scroller {
+      position: relative;
+      z-index: 2;
+      height: 2.75rem;
+      overflow-y: hidden;
+    }
+
+    .nav-scroller .nav {
+      display: flex;
+      flex-wrap: nowrap;
+      padding-bottom: 1rem;
+      margin-top: -1px;
+      overflow-y: auto;
+      text-align: center;
+      white-space: nowrap;
+      -webkit-overflow-scrolling: touch;
+    }
+
+    .btn-bd-primary {
+      --bd-violet-bg: #712cf9;
+      --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+
+      --bs-btn-font-weight: 600;
+      --bs-btn-color: var(--bs-white);
+      --bs-btn-bg: var(--bd-violet-bg);
+      --bs-btn-border-color: var(--bd-violet-bg);
+      --bs-btn-hover-color: var(--bs-white);
+      --bs-btn-hover-bg: #6528e0;
+      --bs-btn-hover-border-color: #6528e0;
+      --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+      --bs-btn-active-color: var(--bs-btn-hover-color);
+      --bs-btn-active-bg: #5a23c8;
+      --bs-btn-active-border-color: #5a23c8;
+    }
+
+    /* .bd-mode-toggle {
+      z-index: 1500;
+    } 
+
+    /* .bd-mode-toggle .dropdown-menu .active .bi {
+      display: block !important;
+    } */
+
+    .news-button {
+      background-color: #d63384;
+      color: white;
+      font-size: bold;
+      margin: 5px;
+    }
+  </style>
+
+</head>
+
+<body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
+  <header data-bs-theme="dark">
+
+
+    <div class="navbar navbar-dark bg-dark shadow-sm">
+      <div class="container">
+        <a href="#" class="navbar-brand d-flex align-items-center">
+          <image class="mx-3" src="../assets/bons-fluidos-logo.png" width="60"></image>
+          <strong>Notícias</strong>
+          <strong>Sobre</strong>
+          <strong>Logs</strong>
+
+        </a>
+        <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader"
+          aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button> -->
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <div id="carouselExampleControls" class="carousel slide" data-mdb-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://mdbcdn.b-cdn.net/img/new/slides/041.webp" class="d-inline-block"
+            style="width: 100%; height: 60%;" alt="Wild Landscape" />
+        </div>
+        <div class="carousel-item">
+          <img src="https://mdbcdn.b-cdn.net/img/new/slides/042.webp" class="d-block w-100" alt="Camera" />
+        </div>
+        <div class="carousel-item">
+          <img src="https://mdbcdn.b-cdn.net/img/new/slides/043.webp" class="d-block w-100" alt="Exotic Fruits" />
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-mdb-target="#carouselExampleControls"
+        data-mdb-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-mdb-target="#carouselExampleControls"
+        data-mdb-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+
+    <!-- <section class="py-5 text-center container">
+  
+      <div class="row py-lg-5">
+        <div class="col-lg-6 col-md-8 mx-auto">
+          <h1 class="fw-light">Principais Notícias</h1>
+          <p class="lead text-body-secondary">
+            Tenha acesso a todas as noticias postadas, gerencie as noticias
+            diretamente do seu navegador, crie noticias, edite noticias,
+            apague, entre outras funcionalidades.
+          </p>
+          <p>
+            <a href="modify-news.html" class="btn my-2 news-button">Criar uma notícia</a>
+          </p>
+        </div>
+      </div>
+    </section> -->
+
+    <div class="album py-5 bg-body-tertiary">
+      <div class="container">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <div class="col">
+            <div class="card shadow-sm">
+              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
+                role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#55595c" />
+                <text x="50%" y="50%" fill="#eceeef" dy=".3em">
+                  Thumbnail
+                </text>
+              </svg>
+              <div class="card-body">
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+
+                    <!-- <button type="button" class="btn btn-sm btn-outline-secondary">
+                      View
+                    </button> -->
+                    <p>
+                      <a href="" class="btn my-2 news-button">View</a>
+                    </p>
+
+                    <p>
+                      <a href="edit-news.html" class="btn my-2 news-button">Edit</a>
+                    </p>
+
+                    <!-- <button type="button" class="btn btn-sm btn-outline-secondary">
+                      Edit
+                    </button> -->
+
+                  </div>
+                  <small class="text-body-secondary">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
+                role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#55595c" />
+                <text x="50%" y="50%" fill="#eceeef" dy=".3em">
+                  Thumbnail
+                </text>
+              </svg>
+              <div class="card-body">
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+
+                    <p>
+                      <a href="" class="btn my-2 news-button">View</a>
+                    </p>
+
+                    <p>
+                      <a href="edit-news.html" class="btn my-2 news-button">Edit</a>
+                    </p>
+
+                  </div>
+                  <small class="text-body-secondary">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
+                role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#55595c" />
+                <text x="50%" y="50%" fill="#eceeef" dy=".3em">
+                  Thumbnail
+                </text>
+              </svg>
+              <div class="card-body">
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+
+                    <p>
+                      <a href="" class="btn my-2 news-button">View</a>
+                    </p>
+                    <p>
+                      <a href="edit-news.html" class="btn my-2 news-button">Edit</a>
+                    </p>
+
+                  </div>
+                  <small class="text-body-secondary">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card shadow-sm">
+              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
+                role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#55595c" />
+                <text x="50%" y="50%" fill="#eceeef" dy=".3em">
+                  Thumbnail
+                </text>
+              </svg>
+              <div class="card-body">
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+
+                    <p>
+                      <a href="" class="btn my-2 news-button">View</a>
+                    </p>
+                    <p>
+                      <a href="edit-news.html" class="btn my-2 news-button">Edit</a>
+                    </p>
+
+                  </div>
+                  <small class="text-body-secondary">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
+                role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#55595c" />
+                <text x="50%" y="50%" fill="#eceeef" dy=".3em">
+                  Thumbnail
+                </text>
+              </svg>
+              <div class="card-body">
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+
+                    <p>
+                      <a href="" class="btn my-2 news-button">View</a>
+                    </p>
+                    <p>
+                      <a href="edit-news.html" class="btn my-2 news-button">Edit</a>
+                    </p>
+
+                  </div>
+                  <small class="text-body-secondary">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
+                role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#55595c" />
+                <text x="50%" y="50%" fill="#eceeef" dy=".3em">
+                  Thumbnail
+                </text>
+              </svg>
+              <div class="card-body">
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+
+                    <p>
+                      <a href="" class="btn my-2 news-button">View</a>
+                    </p>
+                    <p>
+                      <a href="edit-news.html" class="btn my-2 news-button">Edit</a>
+                    </p>
+
+                  </div>
+                  <small class="text-body-secondary">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card shadow-sm">
+              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
+                role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#55595c" />
+                <text x="50%" y="50%" fill="#eceeef" dy=".3em">
+                  Thumbnail
+                </text>
+              </svg>
+              <div class="card-body">
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+
+                    <p>
+                      <a href="" class="btn my-2 news-button">View</a>
+                    </p>
+                    <p>
+                      <a href="edit-news.html" class="btn my-2 news-button">Edit</a>
+                    </p>
+
+                  </div>
+                  <small class="text-body-secondary">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
+                role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#55595c" />
+                <text x="50%" y="50%" fill="#eceeef" dy=".3em">
+                  Thumbnail
+                </text>
+              </svg>
+              <div class="card-body">
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+
+                    <p>
+                      <a href="" class="btn my-2 news-button">View</a>
+                    </p>
+                    <p>
+                      <a href="edit-news.html" class="btn my-2 news-button">Edit</a>
+                    </p>
+
+                  </div>
+                  <small class="text-body-secondary">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
+                role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#55595c" />
+                <text x="50%" y="50%" fill="#eceeef" dy=".3em">
+                  Thumbnail
+                </text>
+              </svg>
+              <div class="card-body">
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+
+                    <p>
+                      <a href="" class="btn my-2 news-button">View</a>
+                    </p>
+                    <p>
+                      <a href="edit-news.html" class="btn my-2 news-button">Edit</a>
+                    </p>
+
+                  </div>
+                  <small class="text-body-secondary">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-center text-white">
+    <!-- Grid container -->
+    <div class="container p-4">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+
+      </section>
+      <!-- Section: Social media -->
+
+      <!-- Section: Form -->
+      <section class="">
+        <form action="">
+          <!--Grid row-->
+          <div class="row d-flex justify-content-center">
+            <!--Grid column-->
+            <div class="col-auto">
+              <p class="pt-2">
+                <strong>Sign up for our newsletter</strong>
+              </p>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-md-5 col-12">
+              <!-- Email input -->
+              <div class="form-outline form-white mb-4">
+                <input type="email" id="form5Example21" class="form-control" />
+                <label class="form-label" for="form5Example21">Email address</label>
+              </div>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-auto">
+              <!-- Submit button -->
+              <button type="submit" class="btn btn-outline-light mb-4">
+                Subscribe
+              </button>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </form>
+      </section>
+      <!-- Section: Form -->
+
+      <!-- Section: Text -->
+      <section class="mb-4">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum
+          repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam
+          eum harum corrupti dicta, aliquam sequi voluptate quas.
+        </p>
+      </section>
+      <!-- Section: Text -->
+
+      <!-- Section: Links -->
+      <section class="">
+        <!--Grid row-->
+        <div class="row">
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Links</h5>
+
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white">Link 1</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 2</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 3</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 4</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Links</h5>
+
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white">Link 1</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 2</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 3</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 4</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Links</h5>
+
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white">Link 1</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 2</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 3</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 4</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Links</h5>
+
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white">Link 1</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 2</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 3</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 4</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </section>
+      <!-- Section: Links -->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2020 Copyright:
+      <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+
+  <!-- <footer class="text-body-secondary py-5">
+
+    <div class="collapse text-bg-dark" id="navbarHeader">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8 col-md-7 py-4">
+            <h4>Sobre</h4>
+            <p class="text-body-secondary">
+              Coordenado pela Profa. Dra. Katia Romero Felizardo, o projeto
+              tem como objetivo levar dignidade para meninas que têm o direito
+              à educação prejudicado por menstruarem, seja pela falta de
+              absorventes ou por não saberem lidar com a transição de fase em
+              suas vidas.
+            </p>
+          </div>
+          <div class="col-sm-4 offset-md-1 py-4">
+            <h4>Contato</h4>
+            <ul class="list-unstyled">
+              <li>
+                <a href="https://www.instagram.com/bonsfluidosutfpr/" class="text-white">Instagram</a>
+              </li>
+              <li>
+                <a href="mailto:katiascannavino@utfpr.edu.br" class="text-white">Email</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+     <div class="container">
+      <p class="float-end mb-1">
+        <a href="#">Back to top</a>
+      </p>
+      <p class="mb-1">
+        Album example is &copy; Bootstrap, but please download and customize
+        it for yourself!
+      </p>
+      <p class="mb-0">
+        New to Bootstrap? <a href="/">Visit the homepage</a> or read our
+        <a href="../getting-started/introduction/">getting started guide</a>.
+      </p>
+    </div> -->
+  </footer>
+</body>
+
+</html>

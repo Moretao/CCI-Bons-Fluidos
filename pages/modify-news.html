@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="auto">
+
+<head>
+  <script src="../assets/js/color-modes.js"></script>
+
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="" />
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors" />
+  <meta name="generator" content="Hugo 0.118.2" />
+  <title>Album example · Bootstrap v5.3</title>
+
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/album/" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3" />
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+
+  <style>
+    .form-signin {
+      max-width: 60vw;
+      padding: 1rem;
+    }
+
+    .submit {
+      background-color: #d63384;
+      color: white;
+      font-size: bold;
+    }
+  </style>
+</head>
+
+<body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
+  <header data-bs-theme="dark">
+    <div class="collapse text-bg-dark" id="navbarHeader">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8 col-md-7 py-4">
+            <h4>Sobre</h4>
+            <p class="text-body-secondary">
+              Coordenado pela Profa. Dra. Katia Romero Felizardo, o projeto
+              tem como objetivo levar dignidade para meninas que têm o direito
+              à educação prejudicado por menstruarem, seja pela falta de
+              absorventes ou por não saberem lidar com a transição de fase em
+              suas vidas.
+            </p>
+          </div>
+          <div class="col-sm-4 offset-md-1 py-4">
+            <h4>Contato</h4>
+            <ul class="list-unstyled">
+              <li>
+                <a href="https://www.instagram.com/bonsfluidosutfpr/" class="text-white">Instagram</a>
+              </li>
+              <li>
+                <a href="mailto:katiascannavino@utfpr.edu.br" class="text-white">Email</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="navbar navbar-dark bg-dark shadow-sm">
+      <div class="container">
+        <a href="news.html" class="navbar-brand d-flex align-items-center">
+          <image class="mx-3" src="../assets/bons-fluidos-logo.png" width="30"></image>
+          <strong>Noticias</strong>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader"
+          aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="form-signin w-100 m-auto">
+    <div class="py-2">
+      <h3>Cadastrar Noticias</h3>
+    </div>
+    <form class="row g-3 container d-flex justify-content-start">
+      <div class="col-6">
+        <label for="inputNew" class="form-label">Título</label>
+        <input type="new" class="form-control" id="inputNew" />
+      </div>
+
+      <div class="col-12">
+        <label for="exampleFormControlTextarea1" class="form-label">Descrição</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+
+      <div class="col-md-6">
+        <label for="exampleFormControlFile1" class="form-label">Selecionar imagens</label>
+        <input type="file" class="form-control" id="exampleFormControlFile1" />
+      </div>
+
+      <div class="col-12">
+        <button type="submit" class="btn submit">Cadastrar</button>
+      </div>
+    </form>
+  </main>
+</body>
+
+</html>
